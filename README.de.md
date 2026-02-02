@@ -51,14 +51,14 @@ Weitere Einzelheiten zu diesem Prozess und Beispielanalysen finden sich hier:<br
 
 ## App-Installation/Nutzung
 Lade den Code herunter und kopiere ihn zu deinem Shiny-Server.<br/>
-Ersetze den Hostnamen des Mailservers in [app.R](app.R) durch deine Angaben (damit E-Mails an die Moderation gesendet werden können). Speichere deine SMTP-Anmeldedaten in der Datei  [.Renviron](.Renviron).<br/>
+Ersetze den Hostnamen des Mailservers (Zeile 25) and Adressen zum Versand/Empfang (Zeilen 466, 473) in [app.R](app.R) durch deine Angaben (damit E-Mails an die Moderation gesendet werden können). Speichere deine SMTP-Anmeldedaten in der Datei  [.Renviron](.Renviron).<br/>
 Teile den Link zur App mit deinen Teilnehmenden.
 
 ## Übersetzungen
 Derzeit ist die App auf Englisch, Deutsch und Japanisch verfügbar (und enthält einen Sprachumschalter über [shiny.i18n](https://github.com/Appsilon/shiny.i18n). Es können gerne weitere Übersetzungen über die translation.json im www-Ordner hinzugefügt werden.<br/><br/>
 
 ## Copyright
-Copyright &copy; 2023, [Björn-Ole Kamm](https://www.b-ok.de)
+Copyright &copy; 2023-26, [Björn-Ole Kamm](https://www.b-ok.de)
 
 reLarp ist freie Software: Es kann unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergegeben und/oder modifiziert werden, entweder in Version 3 der Lizenz oder (nach Wahl) in einer späteren Version.
 
