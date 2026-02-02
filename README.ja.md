@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.online/assets/rl-logo_wh.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.online/assets/rl-logo_bl.png">
-  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.online/assets/rl-logo_bl.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.eu/assets/rl-logo_wh.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.eu/assets/rl-logo_bl.png">
+  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.eu/assets/rl-logo_bl.png">
 </picture>
 
 # reLarp
@@ -14,7 +14,7 @@
 高度に構造化されたディブリーフ戦略として，LARP体験用に調整したPAC分析変法を用いて，LARPのデザイン評価を支援し，さらに重要なのは，参加者が自分の体験を意味づけ，学びを可視化するプロセスを支援する方法としています．<br/>
 本Shinyアプリは，そのプロセスを効率化しています：参加者は個別に感想を入力することができ，プロセス全体がガイドされています．最後に，参加者は生成されたすべての出力（デンドログラム，マトリックス）をファシリテーターに送信することができます． <br/>
 使用可能なテストバージョンは，https://b-ok.shinyapps.io/reLarp/ で入手できます．<br/>
-hinyapps.ioのテストバージョンを使用する場合は，関連のある[データ保護と個人情報に関する免責事項](https://www.larpwright.online/relarp/#data_privacy)を読み，ご了承ください．
+hinyapps.ioのテストバージョンを使用する場合は，関連のある[データ保護と個人情報に関する免責事項](https://www.larpwright.eu/relarp/#data_privacy)を読み，ご了承ください．
 
 ## 手順概要
 **①　連想刺激文**<br/>
@@ -45,7 +45,7 @@ hinyapps.ioのテストバージョンを使用する場合は，関連のある
 続いて，主催者はデンドログラムの解釈を参加者とすぐに共有してもよいし，デブリーフィングプロセスの最後まで待ち，その時点で自分の考えを伝えても可能です．重要なのは，対話の中で解釈を行う場合，主催者は自分の解釈を参加者に押し付けたり，望ましい結論に導く「レールロード」は控えるべきだということです．目的は，解釈を共有することで，参加者から何らかの反応を得ることです．このプロセスには、両者の協力と相互作用が必要です．
 
 プロセスの詳細や分析例については，下記の参考文献をご覧ください．<br/>
-- Kamm, Björn-Ole. [2017](https://www.academia.edu/98921787/Translating_Research_into_Larp_Village_Shelter_Comfort). “Translating Research into Larp: Village, Shelter, Comfort.” In *LARP: Silberhochzeit. Aufsatzsammlung zum MittelPunkt 2017*, edited by Rafael Bienia and Gerke Schlickmann, 31–60. Braunschweig: Zauberfeder Verlag.<br/>
+- Kamm, Björn-Ole. [2017](https://www.b-ok.de/download/Kamm_2017_TranslatingResearchIntoLarp.pdf). “Translating Research into Larp: Village, Shelter, Comfort.” In *LARP: Silberhochzeit. Aufsatzsammlung zum MittelPunkt 2017*, edited by Rafael Bienia and Gerke Schlickmann, 31–60. Braunschweig: Zauberfeder Verlag.<br/>
 - Kamm, Björn-Ole. [2019](https://doi.org/10.1007/978-981-13-8039-6_36). “Experience Design for Understanding Social Withdrawal: Employing a Live-Action Role-Play (LARP) to Learn About and Empathize with Hikikomori in Japan.” In *Neo-Simulation and Gaming toward Active Learning*, edited by Ryoju Hamada, Songsri Soranastaporn, Hidehiko Kanegae, et al., 387–96. Singapore: Springer.<br/>
 - カム ビョーン=オーレ. [2019](https://doi.org/10.32191/jjos.13.1_32). ｢ライブ・アクション・ロールプレイ(LARP)という意識向上を目的とした シリアス・ゲーミング方法:「ひきこもり」についての LARP を例に」『作業科学研究』 13巻1号，32–44頁.
 
