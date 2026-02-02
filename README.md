@@ -51,14 +51,14 @@ For more details on the process and example analyses, see:<br/>
 
 ## Application Set-Up/Use
 Download the code and copy it to your shiny server.<br/>
-In [app.R](app.R) replace the hostname for the mail server with your information (so that emails can be sent to the facilitator). Store your SMTP credentials in the [.Renviron](.Renviron) file.<br/>
+In [app.R](app.R) replace the hostname for the mail server (line 25) and the submit/receive mail addresses (lines 466, 473) with your information (so that emails can be sent to the facilitator). Store your SMTP credentials in the [.Renviron](.Renviron) file.<br/>
 Share the app link with your participants.
 
 ## Translations
 Currently, the app is available in English, German, and Japanese (and includes a language switcher via [shiny.i18n](https://github.com/Appsilon/shiny.i18n)). Feel free to add further translations via the translation.json in the www-folder.<br/><br/>
 
 ## Copyright
-Copyright &copy; 2023, [Björn-Ole Kamm](https://www.b-ok.de)
+Copyright &copy; 2023-26, [Björn-Ole Kamm](https://www.b-ok.de)
 
 reLarp is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
