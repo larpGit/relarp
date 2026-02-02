@@ -1,4 +1,4 @@
-# Copyright 2023, Björn-Ole Kamm, www.b-ok.de
+# Copyright 2023-26, Björn-Ole Kamm, www.b-ok.de
 # This file is part of reLarp.
 #
 # reLarp is free software: you can redistribute it and/or modify it under the terms of 
@@ -55,11 +55,11 @@ ui <- fluidPage(
           )
       ),
       div(style = "display: flex; align-items: center;",
-          tags$img(src = "https://www.larpwright.online/assets/relarp_logo.png", width = "128px", height = "128px", style = "margin-right: 10px;"),
+          tags$img(src = "https://www.larpwright.eu/assets/relarp_logo.png", width = "128px", height = "128px", style = "margin-right: 10px;"),
           h1(HTML("<span style='font-variant: small-caps;'>re</span>Larp"))
       ),
       h5(i18n$t("This app is a supplement to the"),
-         a(href = "https://www.larpwright.online",
+         a(href = "https://www.larpwright.eu",
            "Larpwright Design Tools", target="_blank")
       ),
       span(i18n$t("Created by ")),
@@ -69,7 +69,7 @@ ui <- fluidPage(
       a(href = "https://github.com/larpGit/relarp", i18n$t("on GitHub"), target="_blank"),
       HTML("&bull;"),
       span(i18n$t("Disclaimer:")),
-      a(href = "https://www.larpwright.online/relarp/#data_privacy", i18n$t("Data and Privacy"), target="_blank")
+      a(href = "https://www.larpwright.eu/relarp/#data_privacy", i18n$t("Data and Privacy"), target="_blank")
   ),
   div(style = "height: 20px;"), # Add this line to create some space
   h5(i18n$t("Considering the theme or question provided by the facilitator, what words or ideas come to your mind when you want to describe your larp experience? Please input words or short sentences as they come to your mind. Please input at least four words or sentences.")), 
@@ -463,14 +463,14 @@ server <- function(input, output, session) {
       title = i18n$t("Send to Facilitator"),
       text = i18n$t("Enter the email address you want to send the files to:"),
       type = "input",
-      inputValue = "submit@larpwright.online",
+      inputValue = "your_receiver_mailaddress",
       callbackR = function(email_address) {
         if (!is.null(email_address)) {
           
           # Create email with attachment
           email <- envelope() %>%
             to (email_address) %>%
-            from(paste0(input$name, " <data@larpwright.online>")) %>%
+            from(paste0(input$name, " <your_sender_mailaddress>")) %>%
             subject(paste("Debrief Data -", input$name)) %>%
             text ("Please find the attached zip file with the debrief data.") %>%
             attachment(path = zip_file_path)
