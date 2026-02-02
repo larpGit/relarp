@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.online/assets/rl-logo_wh.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.online/assets/rl-logo_bl.png">
-  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.online/assets/rl-logo_bl.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.eu/assets/rl-logo_wh.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.eu/assets/rl-logo_bl.png">
+  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.eu/assets/rl-logo_bl.png">
 </picture>
 
 # reLarp
@@ -14,7 +14,7 @@ This tool can be used for the reflection phase after a [larp](https://nordiclarp
 As a highly structured debriefing strategy, we use a PAC analysis variant adjusted for larp experiences to assist with evaluating a larp's design and, more importantly, as a method to assist participants in the process of making sense of their experience and visualize their learning. <br/>
 This shiny app now streamlines the process: Participants can individually input their impressions and are guided through the whole process. In the end, they can send all generated output (dendrograms, matrices) to the facilitator. <br/>
 A usable test version is available at https://b-ok.shinyapps.io/reLarp/.<br/>
-If you use the test version on shinyapps.io, please read the respective [data and privacy disclaimer](https://www.larpwright.online/relarp/#data_privacy).
+If you use the test version on shinyapps.io, please read the respective [data and privacy disclaimer](https://www.larpwright.eu/relarp/#data_privacy).
 
 ## Procedure Overview
 **Step 1: Stimulating Instructions**<br/>
@@ -45,7 +45,7 @@ In this important step, we ask the participants to explain the meaning of each c
 Following from the above, organizers may share their interpretation of the dendrogram rather immediately with the participants or keep their thoughts until the end of the debriefing process. Important to note is that if interpretation happens in a dialogue, organizers should refrain from imposing their own interpretation on the participants or  “rail-roading” them to a desired conclusion. The goal is to share interpretations to receive some responses from the participants. This process requires cooperation and interaction between both parties.
 
 For more details on the process and example analyses, see:<br/>
-- Kamm, Björn-Ole. [2017](https://www.academia.edu/98921787/Translating_Research_into_Larp_Village_Shelter_Comfort). “Translating Research into Larp: Village, Shelter, Comfort.” In *LARP: Silberhochzeit. Aufsatzsammlung zum MittelPunkt 2017*, edited by Rafael Bienia and Gerke Schlickmann, 31–60. Braunschweig: Zauberfeder Verlag.<br/>
+- Kamm, Björn-Ole. [2017](https://www.b-ok.de/download/Kamm_2017_TranslatingResearchIntoLarp.pdf). “Translating Research into Larp: Village, Shelter, Comfort.” In *LARP: Silberhochzeit. Aufsatzsammlung zum MittelPunkt 2017*, edited by Rafael Bienia and Gerke Schlickmann, 31–60. Braunschweig: Zauberfeder Verlag.<br/>
 - Kamm, Björn-Ole. [2019](https://doi.org/10.1007/978-981-13-8039-6_36). “Experience Design for Understanding Social Withdrawal: Employing a Live-Action Role-Play (LARP) to Learn About and Empathize with Hikikomori in Japan.” In *Neo-Simulation and Gaming toward Active Learning*, edited by Ryoju Hamada, Songsri Soranastaporn, Hidehiko Kanegae, et al., 387–96. Singapore: Springer.<br/>
 - カム ビョーン=オーレ. [2019](https://doi.org/10.32191/jjos.13.1_32). “ライブ・アクション・ロールプレイ(LARP)という意識向上を目的とした シリアス・ゲーミング方法:「ひきこもり」についての LARP を例に” [Live-Action Role-Play(Larp)as a Serious Gaming Tool for Awareness Raising: The Case of hikikomori(Acute Social Withdrawal]. 作業科学研究 13 (1): 32–44.
 
